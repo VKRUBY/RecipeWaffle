@@ -5,6 +5,8 @@
    }
 
 body {
+    display: flex;
+    flex-direction: column;
     background: #eaeaea;
     font-family: 'Roboto', sans-serif;
     padding-left:100px;
@@ -15,13 +17,13 @@ body {
 .container {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #FFFFFF;
     width: 100%;
     max-width: 1300px;
     min-width: 500px;
     border-radius: 20px;
     padding: 50px;
-    justify-content: center;
 }
 
 .page-title {
