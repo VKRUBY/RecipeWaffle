@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #FFFFFF;
-    min-width: 500px;
+    min-width: 400px;
     border-radius: 20px;
     padding: 50px;
 }
