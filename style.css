@@ -81,8 +81,6 @@ body {
     text-align: center;
     color:  #8F8F8F;
     opacity: 70%;
-    width: 100%;
-    max-width: 1500px;
-    min-width: 500px;
+    min-width: 400px;
     justify-content: center;
 }
