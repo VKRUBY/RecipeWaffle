@@ -9,19 +9,25 @@ body {
     flex-direction: column;
     background: #eaeaea;
     font-family: 'Roboto', sans-serif;
-    padding-left:100px;
+    /* padding-left:100px;
     padding-right: 100px;
     padding-top:40px ;
-    padding-bottom:100px;
+    padding-bottom:100px; */
+    overflow: auto;
 }
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #FFFFFF;
-    min-width: 400px;
+    min-width: 350px;
     border-radius: 20px;
     padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
 }
 
 .page-title {
@@ -81,6 +87,6 @@ body {
     text-align: center;
     color:  #8F8F8F;
     opacity: 70%;
-    min-width: 400px;
+    min-width: 350px;
     justify-content: center;
 }
